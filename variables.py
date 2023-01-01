@@ -1,4 +1,3 @@
-
 def print_balance(): 
     balance = 1000
     print("Your balance is " + str(balance))
