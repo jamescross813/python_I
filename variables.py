@@ -5,7 +5,7 @@ def print_balance():
     return balance
 
 def deduct(amount):
-    print("Your new balance is " + str(balance - amount))
+    print("Your new balance is " + str(print_balance() - amount))
 
 def calculate_interest_on_savings():
   print("You will gain interest on: " + str(savings))
