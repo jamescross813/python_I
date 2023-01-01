@@ -2,6 +2,7 @@
 def print_balance(): 
     balance = 1000
     print("Your balance is " + str(balance))
+    return balance
 
 def deduct(amount):
     print("Your new balance is " + str(balance - amount))
